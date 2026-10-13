@@ -34,3 +34,23 @@
 // } else {
 //     Console.WriteLine("Отрицательных чисел нет");
 // }
+
+
+// int[] pointsPerLab = { 8, -1, 10, 9, -1, 7 };
+// int sum = 0;
+// int submittedCount = 0;
+
+// foreach (int points in pointsPerLab)
+// {
+//     if (points < 0)
+//     {
+//         submittedCount++;
+//         continue;
+//     }
+
+//     sum += points;
+// }
+// Console.WriteLine($"Сумма баллов: {sum}");
+
+// Console.WriteLine($"Количество сданных работ: {submittedCount}");
+
